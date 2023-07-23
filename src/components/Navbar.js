@@ -15,7 +15,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/JJfoundation' className='navbar-logo' onClick={closeMobileMenu}>
             J&J Foundation
             {/* <i class="fa-solid fa-church"></i> */}
           </Link>
