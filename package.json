@@ -1,4 +1,5 @@
 {
+  "homepage": "https://shalem43.github.io/JJfoundation",
   "name": "navbar-dropdown-v1",
   "version": "0.1.0",
   "private": true,
@@ -14,9 +15,9 @@
     "react-scripts": "^2.1.3"
   },
   "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
