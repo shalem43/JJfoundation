@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/github.io/JJfoundation/precache-manifest.968eed865f7f63e4e4ce5192ff50b064.js"
+  "/JJfoundation/precache-manifest.600179b7fb8d075ee2a3feddf7d4fd30.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/github.io/JJfoundation/index.html", {
+workbox.routing.registerNavigationRoute("/JJfoundation/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
